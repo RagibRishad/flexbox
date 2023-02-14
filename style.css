@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+
+header {
+    height: 100px;
+    background-color:blueviolet;
+}
+
+h1 {
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    margin: 0;
+
+}
+
+article {
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+article h2 {
+    text-align: center;    
+}
+
+
+section {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   flex: 200px;
+}
